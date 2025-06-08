@@ -9,12 +9,12 @@ import SkipScreen from './components/screens/SkipsWrapper';
 function App() {
 
   return (
-    <>
+    <div className='App'>
 
     {/* RENDER THE SCREEN */}
     <SkipScreen/>
 
-    </>
+    </div>
   )
 }
 
