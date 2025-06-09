@@ -51,7 +51,9 @@ function SkipScreen() {
         setError(null);
 
         try {
-            const response = await axios.get('https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft');
+            const response = await axios.get(
+                `${import.meta.env.VITE_API_BASE_URL}/skips/by-location?postcode=NR32&area=Lowestoft`
+            );
             setSkips(response.data);
         } catch (err) {
             setError('Failed to load skips. Please try again.');
