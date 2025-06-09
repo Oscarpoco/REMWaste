@@ -8,6 +8,8 @@ import {
     CreditCard
 } from 'lucide-react';
 
+
+// IMPORTING STYLING
 import '../../styles/DesktopNavigation.css';
 
 function Desktop() {
@@ -30,7 +32,7 @@ function Desktop() {
                     <div className="logo-icon">
                         <div className="logo-gradient"></div>
                     </div>
-                    <span className="logo-text">SKIP</span>
+                    <span className="logo-text">SKIP-HIRE</span>
                 </div>
 
                 {/* Navigation Items */}
@@ -56,4 +58,5 @@ function Desktop() {
     );
 }
 
+// MAKING MY FUNCTION AVAILABLE FOR IMPORTS
 export default Desktop;

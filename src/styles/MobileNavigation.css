@@ -1,0 +1,150 @@
+@media (min-width: 769px) 
+{
+  .mobile-desktop-nav 
+  {
+    display: none;
+  }
+}
+
+.mobile-desktop-nav 
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0 0 8px 0;
+  width: 100%;
+}
+
+.mobile-nav-container 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+/* NAV ITEMS */
+.mobile-nav-items 
+{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+  justify-content: space-between;
+  overflow: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.mobile-nav-items::-webkit-scrollbar 
+{
+  display: none;
+}
+
+.mobile-nav-item 
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px 18px;
+  border: none;
+  background: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  color: #6b7280;
+  position: relative;
+  white-space: nowrap;
+  min-width: fit-content;
+  flex-shrink: 0;
+}
+
+.mobile-nav-item:hover 
+{
+  background: rgba(102, 126, 234, 0.08);
+  color: #667eea;
+  transform: translateY(-1px);
+}
+
+.mobile-nav-item.mobile-active 
+{
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.mobile-nav-label 
+{
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.mobile-active-indicator 
+{
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 3px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2px;
+}
+
+
+@media (max-width: 480px) 
+{
+  .mobile-nav-container {
+    padding: 0 8px;
+  }
+  
+  .mobile-nav-items 
+  {
+    gap: 2px;
+    margin: 0 8px;
+  }
+  
+  .mobile-nav-item 
+  {
+    padding: 6px 8px;
+    gap: 4px;
+  }
+  
+  .mobile-nav-label 
+  {
+    font-size: 12px;
+  }
+  
+  .mobile-logo-text 
+  {
+    font-size: 16px;
+  }
+  
+  .mobile-logo-icon 
+  {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 380px) 
+{
+  .mobile-nav-item 
+  {
+    padding: 6px;
+    gap: 2px;
+  }
+  
+  .mobile-nav-label 
+  {
+    font-size: 11px;
+  }
+}
