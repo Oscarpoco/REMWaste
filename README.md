@@ -1,10 +1,19 @@
 # REMWaste - https://wewantwaste-lake.vercel.app
 
 ![REMWaste Screenshot 1](images/screenshot1.jpg)
+---------------------------------------------------------------------------------------------------
+
 ![REMWaste Screenshot 2](images/screenshot2.jpg)
+---------------------------------------------------------------------------------------------------
+
 ![REMWaste Screenshot 3](images/screenshot3.jpg)
+---------------------------------------------------------------------------------------------------
+
 ![REMWaste Screenshot 4](images/screenshot4.jpg)
+---------------------------------------------------------------------------------------------------
+
 ![REMWaste Screenshot 5](images/screenshot5.jpg)
+---------------------------------------------------------------------------------------------------
 
 Redesigned the SKIP page to look more modern. This project focuses on enhancing the user interface and experience of the existing waste management platform with contemporary design principles and improved functionality.
 
@@ -124,7 +133,7 @@ Make sure this URL is accessible and the API is running for full functionality.
 **Oscar Kyle Poco**
 - Email: oscarkylepoco@gmail.com
 - Phone: 0660850741
-- LinkedIn: [oscarkylepoco](https://linkedin.com/in/oscarkylepoco)
+- LinkedIn: [oscarkylepoco](https://linkedin.com/in/oscar-kyle-poco-71528016b/)
 - GitHub: [@Oscarpoco](https://github.com/Oscarpoco)
 
 ## Support
